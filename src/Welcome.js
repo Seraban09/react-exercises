@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import { Age } from './Age'
 
 export class Welcome extends Component {
   render() {
     return (
       <div>Welcome, {this.props.name}!
-        Your age is {this.props.age}!
+      <Age />
       </div>
     )
   }
@@ -12,5 +13,5 @@ export class Welcome extends Component {
 
 Welcome.defaultProps = {
     name: <strong>Pippo</strong>,
-    age: 28,
+    
   }
