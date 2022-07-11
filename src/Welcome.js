@@ -11,6 +11,6 @@ export class Welcome extends Component {
 }
 
 Welcome.defaultProps = {
-    name: "Pippo",
-    age: 26,
+    name: <strong>Pippo</strong>,
+    age: 28,
   }
