@@ -6,9 +6,9 @@ export class App extends Component {
   render() {
     return (
       <div><Hello />
-      <Welcome name="Winjoe"/>
+      <Welcome />
       </div>
     )
   }
-}
 
+}  

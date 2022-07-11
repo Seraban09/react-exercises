@@ -8,3 +8,6 @@ export class Welcome extends Component {
   }
 }
 
+Welcome.defaultProps = {
+    name: "Pippo",
+  }
