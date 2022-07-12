@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
 import { Age } from './Age'
 
-let age= 66;
+let age= 16;
 export class Welcome extends Component {
   render() {
     return (
       <div>Welcome, {this.props.name}!
-      {age>=18 && age<65 ? <Age eta={age} /> : <strong>dato non valido</strong> }
+      {age>=18  ? <Age eta={age} /> : <p>you are very young!</p> }
       </div>
     )
   }
 }
 
 Welcome.defaultProps = {
-    name: <strong>Pippo</strong>,
+    name: "John"
   }
