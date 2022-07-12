@@ -8,7 +8,3 @@ export class Age extends Component {
   }
 }
 
-
-Age.defaultProps = {
-    eta: <strong>29</strong>
-}

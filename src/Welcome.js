@@ -6,7 +6,7 @@ export class Welcome extends Component {
   render() {
     return (
       <div>Welcome, {this.props.name}!
-      {age  ? <Age eta = {age}/> :< strong>Attento sei un Minorenne</strong>}
+      {!this.props.eta && <Age  /> }
       </div>
     )
   }
